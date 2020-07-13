@@ -57,7 +57,7 @@ Finally, clean up your work by destroying the Terraform infrastructure.
 $ terraform destroy
 ```
 Look for a message at the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it had created earlier.
-## Next Steps
+## Next steps
 Now you’ve defined and provisioned your Terraform infrastructure using the command line interface (CLI) on your selected cloud provider, checked that it is properly installed, and destroyed the infrastructure.   
 
 In the next section, you’ll learn how to modify your cloud infrastructure to match your requirements. 
