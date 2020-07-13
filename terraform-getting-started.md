@@ -1,8 +1,11 @@
 # Getting Started with Terraform
 To begin defining and provisioning infrastructure using HashiCorp’s Terraform, first you’ll need to install the Terraform command line interface (CLI) and secure your cloud infrastructure either locally or using a provider such as Amazon Web Services (AWS) or Google Cloud Platform. 
+
 Next, you can create your Terraform infrastructure and ensure that it is properly installed, then clean up by destroying the infrastructure. 
+
 *Optionally, you can sign up for [Terraform Cloud](https://app.terraform.io/signup/account?utm_source=iopage&utm_campaign=tf_cloud_ga "Terraform Cloud").*
 ## Prerequisites 
+`As editor, I would ask the writer/subject matter expert to correct a list of prerequisites like the following based on their draft.`
 
 * Terraform command line interface (CLI)
 * Cloud infrastructure
@@ -58,7 +61,9 @@ $ terraform destroy
 ```
 Look for a message at the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it had created earlier.
 ## Next steps
-Now you’ve defined and provisioned your Terraform infrastructure using the command line interface (CLI) on your selected cloud provider, checked that it is properly installed, and destroyed the infrastructure.   
+Now you’ve defined and provisioned your Terraform infrastructure using the command line interface (CLI) on your selected cloud provider, checked that it is properly installed, and destroyed the infrastructure.
+
+`As editor, I’d ask the writer/subject matter expert to correct and expand on the next steps I write.`
 
 In the next section, you’ll learn how to modify your cloud infrastructure to match your requirements. 
 
